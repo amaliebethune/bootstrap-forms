@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Bee Quiz </title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container-lg">
+  <div class="row">
+    <div class="col-lg-5">
+<h1> Bee quiz </h1>
+
+<p> It's kind of un-bee-lievable how much people don't know about bees when they are an integral part of our ecosystems. Take this quiz and test your knowledge on these fuzzy little pollinators! </p>
+
+<p> <a href="https://en.wikipedia.org/wiki/Bee">Some background information can be found here.</a></p>
+
+        <form>
+
+        <div class ="form-group">
+          <label> What kind of animals are bees? </label>
+          <label class="form-control-label" for="bee"></label>
+          <input class="form-control" type="text" id="bee" name="kind">
+        </div>
+
+        <div class ="form-group">
+          <label class ="form-control-label" for="species">The most well-known species of bee is the </label>
+          <input class="form-control" type="text" id="species" name="honeybee">
+        </div>
+
+          <div class="form-group">
+            <label class ="form-control-label" for="location">Where can bees be found?</label>
+            <textarea class="form-control" id="location" name="continent" rows="6"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label> What do bees eat? </label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="food" value="honey"> Honey
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="food" value="nectar"> Nectar from flowers
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="food" value="flowers"> Flower petals
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="food" value="wax"> Beeswax
+            </label>
+          </div>
+
+        </div>
+
+          <div class ="form-group">
+          <label> Check all body parts that bees have </label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class ="form-check-input" type="checkbox" name="parts" value="eyes"> Compound Eyes
+            </label>
+          </div>
+
+          <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="parts" value="antenna"> Antennae
+          </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="parts" value="mouthparts"> Mouthparts including a proboscis and mandibles
+          </label>
+        </div>
+
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="parts" value="feet"> Feet and toes
+          </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="parts" value="comb"> Honeycomb
+          </label>
+        </div>
+        </div>
+
+          <div class="form-group">
+          <label for="mythology"> Which work of mythology includes three bee-maidens with the power of divination? </label>
+          <select class="form-control" name="researcher" id="mythology" size=6>
+            <option value="shakespeare">Shakespeare's sonnets</option>
+            <option value="greek">Greek Mythology</option>
+            <option value ="Homer">Homer's Hymn to Hermes</option>
+            <option value="marx">Karl Marx's Communist manifesto</option>
+            <option value="Delphi">Tales of the Delphic Oracle</option>
+            <option value="no">You're lying, bees don't have powers</option>
+          </select>
+          </div>
+
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">I'm done!</button>
+          <button class="btn btn-secondary" type="reset">Hmm let me try again</button>
+        </div>
+
+        </form>
+
+      </div>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
